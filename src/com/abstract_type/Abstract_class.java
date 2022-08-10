@@ -8,7 +8,11 @@ public abstract class Abstract_class {
 	
 	public abstract void ramalingam ();	//method name should be declared abstract
 	
-	public void company () {
-		System.out.println("my org is ads");
+	public abstract void company ();
+	
+	public static void main(String[] args) {
+		
+		System.out.println("abstract");
+		
 	}
 }

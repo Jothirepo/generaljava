@@ -4,7 +4,9 @@ package com.exception_handling;
 
 public class User_defined_exception {
 
-	public static void age_limit(int age) throws Exception {
+	public static int age = 23;
+	
+	public static void age_limit() throws Exception {
 		
 		if (age >= 5) {
 			
@@ -12,7 +14,8 @@ public class User_defined_exception {
 			
 		} else {
 
-			throw new Exception();
+			throw new NullPointerException();		//It can throw whatever the exception we define here 
+													//Irrespective of what Exception should be thrown.
 		}
 
 		
@@ -26,16 +29,22 @@ public class User_defined_exception {
 			
 		} else {
 
-			throw new Own_exception("email id is wrong");
+			throw new Own_exception("email id is wrong");	//Parameterized constructor invoked, so
+														    //a parameterized constructor will be thrown
+															//on own_exception
 		}
 
 	}
 	
+	
+	
 	public static void main(String[] args) throws Exception {
 		
-		age_limit(6);
+		age_limit();
 		
 		mailid("ram");
+		
+		
 	}
 
 }

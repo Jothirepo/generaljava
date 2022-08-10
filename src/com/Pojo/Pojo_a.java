@@ -13,6 +13,7 @@ public class Pojo_a {
 
 	public void setYear(int year) {
 		this.year = year;			//left side year denotes the variable name & right side denotes the value to be set
+									//this. does method overloading
 	}
 	
 }

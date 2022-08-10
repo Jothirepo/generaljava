@@ -6,9 +6,9 @@ public class Alexa {
 		System.out.println("Netflix");
 	}
 
-	public void subscription() {
+	public void subscription(){
 		System.out.println("paid");
-	}
+	};
 
 	public void dolby() {
 		System.out.println("smart_audio");

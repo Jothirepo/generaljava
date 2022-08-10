@@ -13,15 +13,26 @@ public class Abstract_class2 extends Abstract_class {
 
 	}
 	
+	@Override
+	public void company() {
+
+		System.out.println("its amazon");
+	}
+	
 	public static void main(String[] args) {
 		
 		Abstract_class ac = new Abstract_class2();
 		
-	    //parent_class ref = new child class ();	
+	    //parent_class ref = new child class ();			//upcasting
+															//child class object in parent class to call parent class' methods
 		
 		ac.ramalingam();
+		ac.company();
 	
+		
 	}
+
+	
 
 }
 

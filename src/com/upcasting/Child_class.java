@@ -20,7 +20,7 @@ public class Child_class extends Parent_class {
 		
 		jo.amazon();
 		jo.flipkart();
-		//jo.apple();
+//		jo.apple();
 		
 		
 //		jo     = reference name for PARENT (So we can only implement parent methods & can point child/sub-classes of parents not the child/sub-class mentioned in the objection creation syntax)
